@@ -1,5 +1,5 @@
 {
-  "name": "starlight",
+  "name": "modern-angularjs",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -9,6 +9,11 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^5.7.11"
+    "@astrojs/starlight": "0.34.2",
+    "@astrojs/starlight-tailwind": "4.0.1",
+    "@tailwindcss/vite": "4.1.5",
+    "astro": "5.7.11",
+    "astro-icon": "1.1.5",
+    "tailwindcss": "4.1.5"
   }
 }

@@ -1,0 +1,33 @@
+---
+title: Overview
+description: Introduction to AngularJS.
+sidebar:
+  label: Overview
+  order: 1
+---
+
+import { LinkCard } from "@astrojs/starlight/components";
+import { CardGrid } from "@astrojs/starlight/components";
+
+<CardGrid>
+  <LinkCard
+    title="Try the tutorial"
+    href="/es/guides/authoring-content/"
+    description="Get your hands on AngularJS"
+  />
+  <LinkCard
+    title="Read the guides"
+    href="/guides/beginner/controllers"
+    description="Learn the concepts behind the framework"
+  />
+  <LinkCard
+    title="Deploy your app"
+    href="/deployment"
+    description="Drop your build artifact in production"
+  />
+  <LinkCard
+    title="Learn best practices"
+    href="/best-practices/project-structure/"
+    description="Project structure, style guide, performance,.. Pick your poison"
+  />
+</CardGrid>

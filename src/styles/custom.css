@@ -1,0 +1,8 @@
+:root {
+    /* --sl-font: 'Inter', sans-serif; */
+    --sl-content-width: 70rem;
+    --sl-text-5xl: 2.75rem;
+    /* --sl-color-accent-low: #B52E31; */
+  }
+
+  /*https://starlight.astro.build/es/guides/css-and-tailwind/#editor-de-temas-de-color*/
