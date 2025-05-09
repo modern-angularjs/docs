@@ -7,7 +7,7 @@ import tailwindcss from '@tailwindcss/vite';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://modern-angularjs.github.io/docs/',
-  // base: '/docs',
+  base: '/docs',
   devToolbar: {
     enabled: false
   },
