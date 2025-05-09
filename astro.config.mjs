@@ -14,9 +14,9 @@ export default defineConfig({
   integrations: [starlight({
     title: 'Modern AngularJS',
     description: 'Unofficial documentation for AngularJS with improvements over end of life support.',
-    logo: {
-      src: './src/assets/logo.png',
-    },
+    // logo: {
+    //   src: './src/assets/logo.webp', // Try with SVG
+    // },
     customCss: [
       './src/fonts/font-face.css',
       './src/styles/custom.css',
