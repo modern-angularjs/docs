@@ -7,7 +7,7 @@ import tailwindcss from '@tailwindcss/vite';
 // https://astro.build/config
 export default defineConfig({
   site: 'https://modern-angularjs.github.io/docs/',
-  base: '/docs',
+  base: '/docs/',
   devToolbar: {
     enabled: false
   },
@@ -18,9 +18,9 @@ export default defineConfig({
     //   src: './src/assets/logo.webp', // Try with SVG
     // },
     customCss: [
+      './src/styles/global.css', // Keep it the first in order to not break starlight styles
       './src/fonts/font-face.css',
       './src/styles/custom.css',
-      './src/styles/global.css',
     ],
     defaultLocale: 'en',
     sidebar: [{
