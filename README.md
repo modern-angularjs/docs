@@ -2,7 +2,7 @@
 
 ![Check the website](https://modern-angularjs.github.io/docs/)
 
-![Logo](https://raw.githubusercontent.com/modern-angularjs/docs/master/modern-angularjs-logo.png =250x250)
+![Logo](https://raw.githubusercontent.com/modern-angularjs/docs/master/modern-angularjs-logo.png)
 
 ## 🧞 Commands
 
